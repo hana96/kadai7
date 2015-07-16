@@ -1,0 +1,16 @@
+application: step-1003
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /
+  script: helloworld.php
+- url: /convert
+  script: input.php
+- url: /show
+  script: show.php
+- url: /getword
+  script: getword.php
+- url: /madlib
+  script: madlib.php
